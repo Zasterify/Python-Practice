@@ -5,3 +5,4 @@ print ("I attend Gallaudet University") # To print my college
 
 name = "Damiete Oruwari"  # To preserve the varaiable 'full name'
 age = "21 years old" # To save the variable 'age'
+country = "Nigeria" # To preserve the variable 'country'
