@@ -5,6 +5,8 @@ all before you start.
 
 ## Notes
 
+##### When you are done doing your work, always make sure to merge it with the master. I will only push and pull from the master branch. You are to make the branch, do your work in the branch, and merge it back when you are ready for me to view.
+
 ##### Do not use the GitKraken to view this file. You have two options to view this file.
 
 1. Go to your github accounts, enter the `Python Practice` then click on README.md
@@ -18,21 +20,17 @@ I will be keeping track of the time, your time starts as soon as i commit this f
 
 ## Instructions
 
-1. Create a new branch and call it `"string_and_console_output"`
-2. In this new branch create a new folder and call it `"Console Output Practice"`
-3. Inside this folder, create a file and call it `"show.py"`.
-4. Inside `show.py`:
-   a. Print your name to the console
-   b. Print where you are from
-   c. Print what college you attend.
+1. In the branch `"string_and_console_output"` find the file `"show.py"` and do the following:
+   - Save your full name to a variable called `"name"`
+   - Save your age to a variable called `"age"`
+   - Save where you are from to a variable called `"country"`
+   - Save where you go to school to a variable called `"college"`
+2. Create a few sentences that use the variables above. Check out the example below.
+
+_Notice that the items in the variables only hold the value they are assigned. This means i can change them later on and still run the same program to show a different output. Try it by putting your name, and then putting a friend's name. You will show me both of these._
 
 ## Example Outputs
 
 When I run your file, I should see something like this:
 
-1.  _My name is Emmanuel Ogunjirin_
-    _I am from Nigeria_
-    _I attend the Univeristy of Virginia_
-2.  _My name is Debo Ogunjirin_
-    _I am from Nigeria_
-    _I attend Gallaudet University_
+1. _My name is Emmanuel Ogunjirin. I am 20 years old. I am from the country Nigeria, and i attend the University of Virginia_
