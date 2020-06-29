@@ -12,3 +12,4 @@ name = "Foluso Adeluola" # To preserve the variable called 'name'
 age = "18 years old" # To save the variable called 'age'
 country = "Nigeria" # To save the variable called 'country'
 college = "Gallaudet University" # To preserve the variable called 'college'
+print('My friend\'s name is Foluso Adeluola. He is 18 years old. He is from Nigeria and also attend to Gallaudet University') # To print the full statement as the above
