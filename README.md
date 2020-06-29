@@ -14,23 +14,22 @@ all before you start.
 
 Remember to commit and push. Do NOT use generic names and numbers. Make sure the commit message makes sense about what you did. I should be able to read your commit message and understand in general what went on before you saved without ever opening the code.
 
-## Time Limit: _1 hour_
+## Time Limit: _30 minutes_
 
 I will be keeping track of the time, your time starts as soon as i commit this file and send the message in the chat.
 
 ## Instructions
 
-1. In the branch `"string_and_console_output"` find the file `"show.py"` and do the following:
-   - Save your full name to a variable called `"name"`
-   - Save your age to a variable called `"age"`
-   - Save where you are from to a variable called `"country"`
-   - Save where you go to school to a variable called `"college"`
-2. Create a few sentences that use the variables above. Check out the example below.
+1. In the branch `"string_and_console_output"` make a new file and call it `"name.py"` and do the following:
+   - Save your first name to a variable called `"name"`
+   - Print the `"name"`5 times, but you can only use one print statement
 
-_Notice that the items in the variables only hold the value they are assigned. This means i can change them later on and still run the same program to show a different output. Try it by putting your name, and then putting a friend's name. You will show me both of these._
+_Note there should be appropriate spaces in between words_
 
 ## Example Outputs
 
 When I run your file, I should see something like this:
 
-1. _My name is Emmanuel Ogunjirin. I am 20 years old. I am from the country Nigeria, and i attend the University of Virginia_
+1. Emmanuel Emmanuel Emmanuel Emmanuel Emmanuel
+   or
+2. Deborah Deborah Deborah Deborah Deborah
