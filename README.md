@@ -21,8 +21,9 @@ I will be keeping track of the time, your time starts as soon as i commit this f
 ## Instructions
 
 1. In the branch `"string_and_console_output"` inside `"Console Output Practice"`make a new file and call it `"name.py"` and do the following:
-   - Save your first name to a variable called `"name"`
-   - Print the `"name"`5 times, but you can only use one print statement
+   - Save your first name to a variable called `"firstName"`
+   - Save your last name to a variable called `"lastName"`
+   - Print the `"first and last name"`5 times, but you can only use one print statement
 
 _Note there should be appropriate spaces in between words_
 
@@ -30,6 +31,6 @@ _Note there should be appropriate spaces in between words_
 
 When I run your file, I should see something like this:
 
-1. Emmanuel Emmanuel Emmanuel Emmanuel Emmanuel
+1. Emmanuel Ogunjirin Emmanuel Ogunjirin Emmanuel Ogunjirin Emmanuel Ogunjirin Emmanuel Ogunjirin
    or
-2. Deborah Deborah Deborah Deborah Deborah
+2. Deborah Ogunjirin Deborah Ogunjirin Deborah Ogunjirin Deborah Ogunjirin Deborah Ogunjirin
