@@ -14,7 +14,7 @@ all before you start.
 
 Remember to commit and push. Do NOT use generic names and numbers. Make sure the commit message makes sense about what you did. I should be able to read your commit message and understand in general what went on before you saved without ever opening the code.
 
-## Time Limit: _30 minutes_
+## Time Limit: _10 minutes_
 
 I will be keeping track of the time, your time starts as soon as i commit this file and send the message in the chat.
 
@@ -23,7 +23,7 @@ I will be keeping track of the time, your time starts as soon as i commit this f
 1. In the branch `"string_and_console_output"` inside `"Console Output Practice"`make a new file and call it `"name.py"` and do the following:
    - Save your first name to a variable called `"firstName"`
    - Save your last name to a variable called `"lastName"`
-   - Print the `"first and last name"`5 times, but you can only use one print statement
+   - Print the `"first and last name"` 2 times, but you can only use one print statement
 
 _Note there should be appropriate spaces in between words_
 
@@ -31,6 +31,6 @@ _Note there should be appropriate spaces in between words_
 
 When I run your file, I should see something like this:
 
-1. Emmanuel Ogunjirin Emmanuel Ogunjirin Emmanuel Ogunjirin Emmanuel Ogunjirin Emmanuel Ogunjirin
+1. Emmanuel Ogunjirin Emmanuel Ogunjirin
    or
-2. Deborah Ogunjirin Deborah Ogunjirin Deborah Ogunjirin Deborah Ogunjirin Deborah Ogunjirin
+2. Deborah Ogunjirin Deborah Ogunjirin
