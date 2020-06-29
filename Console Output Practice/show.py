@@ -10,3 +10,4 @@ print('My name is Damiete Oruwari. I am 21 years old. I am from Nigeria and l at
 
 name = "Foluso Adeluola" # To preserve the variable called 'name'
 age = "18 years old" # To save the variable called 'age'
+country = "Nigeria" # To save the variable called 'country'
