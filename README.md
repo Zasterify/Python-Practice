@@ -20,7 +20,7 @@ I will be keeping track of the time, your time starts as soon as i commit this f
 
 ## Instructions
 
-1. In the branch `"string_and_console_output"` make a new file and call it `"name.py"` and do the following:
+1. In the branch `"string_and_console_output"` inside `"Console Output Practice"`make a new file and call it `"name.py"` and do the following:
    - Save your first name to a variable called `"name"`
    - Print the `"name"`5 times, but you can only use one print statement
 
