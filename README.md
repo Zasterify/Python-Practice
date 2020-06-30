@@ -32,4 +32,4 @@ When I run your file, it should do the follow:
 
 - How much was your meal? 5.50 <-- I enter 5.50
 - What percentage tip would you like to give? 5 <-- I enter 5
-- You will be tipping $0.275. Your final total will be $5.775. Have a nice day!
+- You will be tipping \$0.275. Your final total will be \$5.775. Have a nice day!
