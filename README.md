@@ -16,24 +16,22 @@ Remember to commit and push. Do NOT use generic names and numbers. Make sure the
 
 ## Time Limit: _1 hour_
 
-his will be the last one for today. Tomorrow we should get through about 5 practice problems before 2PM hopefully. Then we can move on. I will be keeping track of the time, your time starts as soon as i commit this file and send the message in the chat.
+Please try to keep to this time
 
 ## Instructions
 
-1. In a new branch called `"arithmetic"` make a new folder called `"Numbers Practice"` then make a new file, call it `"marriage.py"`.
-2. This exercise is to give the age range that a certain individual can marry. To do this you must do the following.
-   a. Make a variable, called it `"myAge"` and give it your age.
-   b. Make a new variable called `"lower_age_limit"` - This variable must use the variable `"myAge"`, divide it by 2, and add 7.
-   c. Make a new variable called `"higher_age_limit"` - This variable must use the variable `"myAge"`, multiply it by 2, and then subtract 13.
-3. Lastly, print out a statement using the three variables `"myAge"`, `"lower_age_limit"`, and `"higher_age_limit"`.
-   - See the example below for a sample sentence.
+1. In the branch called `"arithmetic"` inside the folder called `"Numbers Practice"` make a new file and call it `"fishing.py"`.
+2. Make a variable (call it something that makes sense in this context) that holds a number. This number will be how many fish are in a pond. For example, if there are 50 fish in a pond, this variable will be 50.
+3. Make another variable (call it something sensible again). This number will be how many fishes the person wants to catch. For example, if i wanted to catch 5 fish, this variable will be 5.
+   - This variable must accept input from the user. (This means it must use the `input` keyword signifying it will ask the user for something)
+4. Make another variable (call it something that makes sense) that hold how many fishes are left after.
+   - Hint; you will use subtraction here.
+5. In the end, i want you to print out a statement EXACTLY as follows where you replace the dots with the appropriate variable.
+   "There were ... fishes in a pond. You caught ... fish(es). There are now ... fishes left in the pond. Happy fishing!"
 
 ## Example Outputs
 
-When I run your file with `"myAge"` being 20, I should see something like this:
+When I run your file with 50 fishes in the pond initially, it should do the follow:
 
-- My age is 20, that means i can marry between the age of 17 and 27 years old.
-
-When I run your file with `"myAge"` being 18, I should see something like this:
-
-- My age is 18, that means i can marry between the age of 16 and 23 years old.
+- How many fishes do you want to catch? 15 <-- I typed in 15 to the computer
+- "There were 50 fishes in a pond. You caught 15 fish(es). There are now 35 fishes left in the pond. Happy fishing!"
