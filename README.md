@@ -14,23 +14,26 @@ all before you start.
 
 Remember to commit and push. Do NOT use generic names and numbers. Make sure the commit message makes sense about what you did. I should be able to read your commit message and understand in general what went on before you saved without ever opening the code.
 
-## Time Limit: _10 minutes_
+## Time Limit: _1 hour_
 
-I will be keeping track of the time, your time starts as soon as i commit this file and send the message in the chat.
+his will be the last one for today. Tomorrow we should get through about 5 practice problems before 2PM hopefully. Then we can move on. I will be keeping track of the time, your time starts as soon as i commit this file and send the message in the chat.
 
 ## Instructions
 
-1. In the branch `"string_and_console_output"` inside `"Console Output Practice"`make a new file and call it `"name.py"` and do the following:
-   - Save your first name to a variable called `"firstName"`
-   - Save your last name to a variable called `"lastName"`
-   - Print the `"first and last name"` 2 times, but you can only use one print statement
-
-_Note there should be appropriate spaces in between words_
+1. In a new branch called `"arithmetic"` make a new folder called `"Numbers Practice"` then make a new file, call it `"marriage.py"`.
+2. This exercise is to give the age range that a certain individual can marry. To do this you must do the following.
+   a. Make a variable, called it `"myAge"` and give it your age.
+   b. Make a new variable called `"lower_age_limit"` - This variable must use the variable `"myAge"`, divide it by 2, and add 7.
+   c. Make a new variable called `"higher_age_limit"` - This variable must use the variable `"myAge"`, multiply it by 2, and then subtract 13.
+3. Lastly, print out a statement using the three variables `"myAge"`, `"lower_age_limit"`, and `"higher_age_limit"`.
+   - See the example below for a sample sentence.
 
 ## Example Outputs
 
-When I run your file, I should see something like this:
+When I run your file with `"myAge"` being 20, I should see something like this:
 
-1. Emmanuel Ogunjirin Emmanuel Ogunjirin
-   or
-2. Deborah Ogunjirin Deborah Ogunjirin
+- My age is 20, that means i can marry between the age of 17 and 27 years old.
+
+When I run your file with `"myAge"` being 18, I should see something like this:
+
+- My age is 18, that means i can marry between the age of 16 and 23 years old.
