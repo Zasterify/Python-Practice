@@ -20,18 +20,16 @@ Please try to keep to this time
 
 ## Instructions
 
-1. In the branch called `"arithmetic"` inside the folder called `"Numbers Practice"` make a new file and call it `"fishing.py"`.
-2. Make a variable (call it something that makes sense in this context) that holds a number. This number will be how many fish are in a pond. For example, if there are 50 fish in a pond, this variable will be 50.
-3. Make another variable (call it something sensible again). This number will be how many fishes the person wants to catch. For example, if i wanted to catch 5 fish, this variable will be 5.
-   - This variable must accept input from the user. (This means it must use the `input` keyword signifying it will ask the user for something)
-4. Make another variable (call it something that makes sense) that hold how many fishes are left after.
-   - Hint; you will use subtraction here.
-5. In the end, i want you to print out a statement EXACTLY as follows where you replace the dots with the appropriate variable.
-   "There were ... fishes in a pond. You caught ... fish(es). There are now ... fishes left in the pond. Happy fishing!"
+You are to create a Tip calculator that does the following.
+
+- Asks the user for the amount their meal was. (Note, this can be a decimal number)
+- Asks the user the percentage they would like to tip
+- Prints out the tip and final price to be paid.
 
 ## Example Outputs
 
-When I run your file with 50 fishes in the pond initially, it should do the follow:
+When I run your file, it should do the follow:
 
-- How many fishes do you want to catch? 15 <-- I typed in 15 to the computer
-- "There were 50 fishes in a pond. You caught 15 fish(es). There are now 35 fishes left in the pond. Happy fishing!"
+- How much was your meal? 5.50 <-- I enter 5.50
+- What percentage tip would you like to give? 5 <-- I enter 5
+- You will be tipping \$0.275. Your final total will be \$5.775. Have a nice day!
