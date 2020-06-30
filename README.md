@@ -20,17 +20,16 @@ Please try to keep to this time
 
 ## Instructions
 
-1. In the branch called `"arithmetic"` inside the folder called `"Numbers Practice"` make a new file and call it `"cookie.py"`.
-2. In the file, make a variable. This variable should ask the user for a the number of cookies they have in a jar.
-3. Make another variable. This variable should ask the user for the number of people in the room.
-4. Make a variable and save the equal division of the two numbers.
-5. Make another variable and save the remainder of the division of both numbers
-6. You should then print how many cookies each person can have and the remainder of the cookies after dividing them equally.
+You are to create a Tip calculator that does the following.
+
+- Asks the user for the amount their meal was. (Note, this can be a decimal number)
+- Asks the user the percentage they would like to tip
+- Prints out the tip and final price to be paid.
 
 ## Example Outputs
 
 When I run your file, it should do the follow:
 
-- How many cookies do you have? 13 <-- I typed in 13 to the computer
-- How many people are in the room? 4 <-- I typed in 4 to the computer
-- Each person can have 3 cookies, after that, you will have 1 cookie(s) left in the jar.
+- How much was your meal? 5.50 <-- I enter 5.50
+- What percentage tip would you like to give? 5 <-- I enter 5
+- You will be tipping $0.275. Your final total will be $5.775. Have a nice day!
