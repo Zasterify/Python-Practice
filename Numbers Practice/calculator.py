@@ -1,4 +1,4 @@
 meal = float(input("How much was your meal?: "))  # To put the price of meal
-
+tip = int(input("What percentage tip would you like to give?: ")) # To put the percentage whatever you want
 
 
