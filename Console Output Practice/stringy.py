@@ -4,72 +4,103 @@ first = "Fatima"[0]
 second = "Fatima"[1]
 third = "Fatima"[2]
 fourth = "Fatima"[3]
-print("The word is",name,"! Fatima has",count, "letters. The letter at index 0 is",first,", index 1 is",second,",index 2 is",third, "and index 3 is",fourth)
+fifth = "Fatima"[4]
+sixth = "Fatima"[5]
+print("The word is",name,"! Fatima has",count, "letters. The letter at index 0 is",first,", index 1 is",second,",index 2 is",third, ",index 3 is",fourth,", index 4 is",fifth, "and index 5 is",sixth)
 
 age = "19"
 count = len(age)
 first = "age"[0]
 second = "age"[1]
-print("The word is",age,"! 19 has",count, "letters. The letter at index 0 is",first,", index 1 is",second)
+print("The word is",age,"! 19 has",count, "letters. The letter at index 0 is",first,", and index 1 is",second)
 
 complexion = "Hispanic"
 count = len(complexion)
-first = "Hispanic"[2]
-second = "Hispanic"[3]
-third = "Hispanic"[4]
-fourth = "Hispanic"[5]
-print("The word is",complexion,"! Hispanic has",count, "letters. The letter at index 2 is",first,", index 3 is",second,",index 4 is",third, "and index  is",fourth)
+first = "Hispanic"[0]
+second = "Hispanic"[1]
+third = "Hispanic"[2]
+fourth = "Hispanic"[3]
+fifth = "Hispanic"[4]
+sixth = "Hispanic"[5]
+seventh = "Hispanic"[6]
+eighth = "Hispanic"[7]
+print("The word is",complexion,"! Hispanic has",count, "letters. The letter at index 0 is",first,", index 1 is",second,",index 2 is",third, "index 3 is",fourth,", index 4 is",fifth, ", index 5 is",sixth, ", index 6 is",seventh, "and index 7 is",eighth)
 
-country = "United Kingdom"
+country = "England"
 count = len(country) 
-first = "United Kingdom"[6] 
-second = "United Kingdom"[7]
-third = "United Kingdom"[8]
-fourth = "United Kingdom"[9]
-print("The word is",country,"! United Kingdom has",count, "letters. The letter at index 6 is",first,", index 7 is",second,",index 8 is",third, "and index 9 is",fourth)
+first = "England"[0] 
+second = "England"[1]
+third = "England"[2]
+fourth = "England"[3]
+fifth = "England"[4]
+sixth = "England"[5]
+seventh = "England"[6]
+print("The word is",country,"! England has",count, "letters. The letter at index 0 is",first,", index 1 is",second,",index 2 is",third, "index 3 is",fourth,", index 4 is",fifth, ", index 5 is",sixth, "and index 6 is",seventh)
 
 major = "Teacher"
 count = len(major)
-first = "Teacher"[3]
-second = "Teacher"[4]
-third = "Teacher"[5]
-fourth = "Teacher"[6]
-print("The word is",major,"! Teacher has",count, "letters. The letter at index 3 is",first,", index 4 is",second,",index 5 is",third, "and index 6 is",fourth)
+first = "Teacher"[0]
+second = "Teacher"[1]
+third = "Teacher"[2]
+fourth = "Teacher"[3]
+fifth = "Teacher"[4]
+sixth = "Teacher"[5]
+seventh = "Teacher"[6]
+print("The word is",major,"! Teacher has",count, "letters. The letter at index 0 is",first,", index 1 is",second,",index 2 is",third, "index 3 is",fourth,", index 4 is",fifth, ", index 5 is",sixth, "and index 6 is",seventh)
 
-course = "Mathematics"
+course = "Maths"
 count = len(course)
-first = "Teacher"[4]
-second = "Teacher"[5]
-third = "Teacher"[6]
-print("The word is",course,"! Mathematics has",count, "letters. The letter at index 4 is",first,", index 5 is",second,",index 6 is",third)
+first = "Maths"[0]
+second = "Maths"[1]
+third = "Maths"[2]
+fourth = "Maths"[3]
+fifth = "Maths"[4]
+print("The word is",course,"! Maths has",count, "letters. The letter at index 0 is",first,", index 1 is",second,",index 2 is",third, "index 3 is",fourth, "and index 4 is",fifth)
 
-hobbies = "Singing and Dancing"
+hobbies = "Singing"
 count = len(hobbies)
-first = "Singing and Dancing"[6]
-second = "Singing and Dancing"[9]
-third = "Singing and Dancing"[15]
-print("The word is",hobbies,"! Singing and Dancing has",count, "letters. The letter at index 6 is",first,", index 9 is",second,",index 15 is",third)
+first = "Singing"[0]
+second = "Singing"[1]
+third = "Singing"[2]
+fourth = "Singing"[3]
+fifth = "Singing"[4]
+sixth = "Singing"[5]
+seventh = "Singing"[6]
+print("The word is",hobbies,"! Singing has",count, "letters. The letter at index 0 is",first,", index 1 is",second,",index 2 is",third, "index 3 is",fourth,", index 4 is",fifth, ", index 5 is",sixth, ", and index 6 is",seventh)
 
 color = "Violet"
 count = len(color)
-first = "Violet"[1]
-second = "Violet"[2]
-third = "Violet"[3]
-print("The word is",color,"! Violet has",count, "letters. The letter at index 1 is",first,", index 2 is",second,",index 3 is",third)
-
-college = "University of Birmingham"
-count = len(college)
-first = "University of Birmingham"[7]
-second = "University of Birmingham"[14]
-third = "University of Birmingham"[17]
-print("The word is",college,"! University of Birmingham has",count, "letters. The letter at index 7 is",first,", index 14 is",second,",index 17 is",third)
+first = "Violet"[0]
+second = "Violet"[1]
+third = "Violet"[2]
+fourth = "violet"[3]
+fifth = "Violet"[4]
+sixth = "Violet"[5]
+print("The word is",color,"! Violet has",count, "letters. The letter at index 0 is",first,", index 1 is",second,",index 2 is",third, "index 3 is",fourth,", index 4 is",fifth, "and index 5 is",sixth)
 
 movies = "Extraction"
 count = len(movies)
-first = "Extraction"[3]
-second = "Extraction"[5]
-third = "Extraction"[9]
-print("The word is",movies,"! Extraction has",count, "letters. The letter at index 3 is",first,", index 5 is",second,",index 9 is",third)
+first = "Extraction"[0]
+second = "Extraction"[1]
+third = "Extraction"[2]
+fourth = "Extraction"[3]
+fifth = "Extraction"[4]
+sixth = "Extraction"[5]
+seventh = "Extraction"[6]
+eighth = "Extraction"[7]
+ninth = "Extraction"[8]
+tenth = "Extraction"[9] 
+print("The word is",movies,"! Extraction has",count, "letters. The letter at index 0 is",first,", index 1 is",second,", index 2 is",third, ", index 3 is",fourth,", index 4 is",fifth,", index 5 is",sixth,", index 6 is",seventh, ", index 7 is",eighth,", index 8 is",ninth," and index 9 is",tenth)
+
+marital_status = "Single"
+count = len(marital_status)
+first = "Single"[0]
+second = "Single"[1]
+third = "Single"[2]
+fourth = "Single"[3]
+fifth = "Single"[4]
+sixth = "Single"[5]
+print("The word is",marital_status, "! Single has",count, " letters. The The letter at index 0 is",first,", index 1 is",second,",index 2 is",third, "index 3 is",fourth,", index 4 is",fifth, ", index 5 is",sixth)
 
 
 
