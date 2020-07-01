@@ -20,16 +20,16 @@ Please try to keep to this time
 
 ## Instructions
 
-You are to create a Tip calculator that does the following.
+Go back to the "string_and_console_output" branch. We will do some more practice there.
 
-- Asks the user for the amount their meal was. (Note, this can be a decimal number)
-- Asks the user the percentage they would like to tip
-- Prints out the tip and final price to be paid.
+1. In a new file called stringy.py create 10 variables, and assign them a word that is a string.
+2. On each of this variables, i want you to find the length of the word using the `len()` function, and then print out each letter at each index of the word.
+3. Print out the information you gathered like below.
+
+_Note. When printing out the index letters, make sure you access them by using the index number._
 
 ## Example Outputs
 
-When I run your file, it should do the follow:
+When I run your file, it should do something like this:
 
-- How much was your meal? 5.50 <-- I enter 5.50
-- What percentage tip would you like to give? 5 <-- I enter 5
-- You will be tipping \$0.275. Your final total will be \$5.775. Have a nice day!
+- The word is "Ryan"!. Ryan has 4 letters. The letter at index 0 is R, index 1 is y, index 2 is a and index 3 is n.
