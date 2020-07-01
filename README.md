@@ -14,23 +14,22 @@ all before you start.
 
 Remember to commit and push. Do NOT use generic names and numbers. Make sure the commit message makes sense about what you did. I should be able to read your commit message and understand in general what went on before you saved without ever opening the code.
 
-## Time Limit: _10 minutes_
+## Time Limit: _1 hour_
 
-I will be keeping track of the time, your time starts as soon as i commit this file and send the message in the chat.
+Please try to keep to this time
 
 ## Instructions
 
-1. In the branch `"string_and_console_output"` inside `"Console Output Practice"`make a new file and call it `"name.py"` and do the following:
-   - Save your first name to a variable called `"firstName"`
-   - Save your last name to a variable called `"lastName"`
-   - Print the `"first and last name"` 2 times, but you can only use one print statement
+Go back to the "string_and_console_output" branch. We will do some more practice there.
 
-_Note there should be appropriate spaces in between words_
+1. In a new file called stringy.py create 10 variables, and assign them a word that is a string.
+2. On each of this variables, i want you to find the length of the word using the `len()` function, and then print out each letter at each index of the word.
+3. Print out the information you gathered like below.
+
+_Note. When printing out the index letters, make sure you access them by using the index number._
 
 ## Example Outputs
 
-When I run your file, I should see something like this:
+When I run your file, it should do something like this:
 
-1. Emmanuel Ogunjirin Emmanuel Ogunjirin
-   or
-2. Deborah Ogunjirin Deborah Ogunjirin
+- The word is "Ryan"!. Ryan has 4 letters. The letter at index 0 is R, index 1 is y, index 2 is a and index 3 is n.
