@@ -14,31 +14,14 @@ all before you start.
 
 Remember to commit and push. Do NOT use generic names and numbers. Make sure the commit message makes sense about what you did. I should be able to read your commit message and understand in general what went on before you saved without ever opening the code.
 
-## Time Limit: _1 hour_
+## Time Limit: _3 hours_
 
 Please try to keep to this time
 
 ## Instructions
 
-Make a new branch and call it conditional_practice.
+Here are three problems you should answer. Make sure they are in an appropirate branch, folder, and filename.
 
-1. Make a new folder, call it "Conditionals" and inside make a new file and called it checking.py
-2. Inside the file, two variables.
-   - One of the variables should ask the user for a number.
-   - The other one should hold a number
-3. If the number the user puts in is the same as the number being held by the second variable the program should print "correct", otherwise, it should print "wrong".
-
-_Note. When printing out the index letters, make sure you access them by using the index number._
-
-## Example Outputs
-
-When I run your file, it should do something like this:
-Number i saved is 2.
-
-- Guess a number: 4 <--- i entered 4.
-- The number is wrong!
-
-Number i saved 7
-
-- Guess a number: 7 <-- i entered 7
-- The number is right!
+1. A program that asks for the length and breadth of a rectangle from the user. It then checks if the rectangle is a square or not.
+2. A program that asks the user for two numbers, and then it prints the biggest number between them.
+3. A program that asks 3 people for a number, and then prints out the oldest, and the youngest.
