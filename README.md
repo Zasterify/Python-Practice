@@ -20,16 +20,25 @@ Please try to keep to this time
 
 ## Instructions
 
-Go back to the "string_and_console_output" branch. We will do some more practice there.
+Make a new branch and call it conditional_practice.
 
-1. In a new file called stringy.py create 10 variables, and assign them a word that is a string.
-2. On each of this variables, i want you to find the length of the word using the `len()` function, and then print out each letter at each index of the word.
-3. Print out the information you gathered like below.
+1. Make a new folder, call it "Conditionals" and inside make a new file and called it checking.py
+2. Inside the file, two variables.
+   - One of the variables should ask the user for a number.
+   - The other one should hold a number
+3. If the number the user puts in is the same as the number being held by the second variable the program should print "correct", otherwise, it should print "wrong".
 
 _Note. When printing out the index letters, make sure you access them by using the index number._
 
 ## Example Outputs
 
 When I run your file, it should do something like this:
+Number i saved is 2.
 
-- The word is "Ryan"!. Ryan has 4 letters. The letter at index 0 is R, index 1 is y, index 2 is a and index 3 is n. The upper case of the word is RYAN, and the lower case of the word is ryan
+- Guess a number: 4 <--- i entered 4.
+- The number is wrong!
+
+Number i saved 7
+
+- Guess a number: 7 <-- i entered 7
+- The number is right!
