@@ -32,4 +32,4 @@ _Note. When printing out the index letters, make sure you access them by using t
 
 When I run your file, it should do something like this:
 
-- The word is "Ryan"!. Ryan has 4 letters. The letter at index 0 is R, index 1 is y, index 2 is a and index 3 is n.
+- The word is "Ryan"!. Ryan has 4 letters. The letter at index 0 is R, index 1 is y, index 2 is a and index 3 is n. The upper case of the word is RYAN, and the lower case of the word is ryan
