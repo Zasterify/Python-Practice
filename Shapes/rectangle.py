@@ -3,3 +3,4 @@ user2 = int(input("Enter a breadth: ")) # To access any size for the breadth
 if user == user2: # To observe whether it is equal or not.
     print("The rectangle is a square.") # To print if they are excatly the same
 else: 
+    print("The rectangle is not a square.") # To print if they are not same
