@@ -9,4 +9,4 @@ elif name3 < name1 and name1 < name2:
 elif name3 > name2 and name2 > name1:
     print(name3,'is biggest and' ,name1, 'is smallest')
 else:
-    print(name1,'is biggest and' ,name2, 'is smallest')
+    print(name3,'is biggest and' ,name2, 'is smallest')
