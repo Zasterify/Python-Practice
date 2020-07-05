@@ -16,12 +16,15 @@ Remember to commit and push. Do NOT use generic names and numbers. Make sure the
 
 ## Time Limit: _3 hours_
 
-Please try to keep to this time
+Please try to keep to this time, we have a lot to do now.
 
 ## Instructions
 
-Here are three problems you should answer. Make sure they are in an appropirate branch, folder, and filename.
-
-1. A program that asks for the length and breadth of a rectangle from the user. It then checks if the rectangle is a square or not.
-2. A program that asks the user for two numbers, and then it prints the biggest number between them.
-3. A program that asks 3 people for a number, and then prints out the oldest, and the youngest.
+A school has following rules for grading system:
+a. Below 25 - F
+b. 25 to 45 - E
+c. 45 to 50 - D
+d. 50 to 60 - C
+e. 60 to 80 - B
+f. Above 80 - A
+Ask user to enter marks and print the corresponding grade to the user.
