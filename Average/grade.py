@@ -5,3 +5,4 @@ elif grade >= 60:
     print('Your grade is B')  # If it is greater than 60 and return B
 
 elif grade >= 50:
+    print ('Your grade is C') # If it is greater than 50 and return C
