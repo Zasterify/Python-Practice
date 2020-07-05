@@ -7,3 +7,4 @@ elif num % 5 == 0:
 elif num % 3 == 0:
     print('Biss')  # If it is divided by 3 and return Biss
 else:
+    print('The number is',num)  # If it is divided by none of the above and print like this
