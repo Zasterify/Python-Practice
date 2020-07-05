@@ -5,3 +5,4 @@ elif num % 5 == 0:
     print('Fizz')  # If it is divided by 5 and return Fizz
 
 elif num % 3 == 0:
+    print('Biss')  # If it is divided by 3 and return Biss
