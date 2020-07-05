@@ -6,3 +6,4 @@ elif grade >= 60:
 
 elif grade >= 50:
     print ('Your grade is C') # If it is greater than 50 and return C
+elif grade >= 45:
