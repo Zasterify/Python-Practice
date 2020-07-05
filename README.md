@@ -20,11 +20,10 @@ Please try to keep to this time, we have a lot to do now.
 
 ## Instructions
 
-A school has following rules for grading system:
-a. Below 25 - F
-b. 25 to 45 - E
-c. 46 to 50 - D
-d. 51 to 60 - C
-e. 61 to 80 - B
-f. Above 80 - A
-Ask user to enter marks and print the corresponding grade to the user.
+Good. Here is another one.
+
+Make a program that asks the user for a number.
+If the number given to the user is divisible by 5 and 3, print out "FizzBiss"
+If the number is only divisible by 5, print out "Fizz"
+If the number is only divisible by 3, print out "Biss"
+If the number is not divisible by 5, or 3, print out the number.
