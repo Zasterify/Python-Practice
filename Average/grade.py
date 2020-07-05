@@ -3,3 +3,5 @@ if grade >= 80:
     print('Your grade is A')  # If it is greater than 80 and return A
 elif grade >= 60:
     print('Your grade is B')  # If it is greater than 60 and return B
+
+elif grade >= 50:
