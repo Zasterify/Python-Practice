@@ -8,3 +8,4 @@ else:
         print('You can work legally')   # If your age is older than 18 and return like this
     else:
         print('You are a senior')
+        print('You are too old to work legally')  # If your age is older than 50 and return like this
