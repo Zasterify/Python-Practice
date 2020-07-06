@@ -6,3 +6,4 @@ else:
     if age >= 18 and age <= 50: 
         print('You are an adult')
         print('You can work legally')   # If your age is older than 18 and return like this
+    else:
