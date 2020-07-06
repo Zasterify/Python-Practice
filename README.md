@@ -22,14 +22,11 @@ Please try to keep to this time, we have a lot to do now.
 
 First we will do some practice on nested if/else statements.
 
-- Ask a user their age.
-- If the age is less than 18,
-  - print "You are a minor"
-  - print "You cannot work legally"
-- If not,
-  - If the age is 18 or more, and 60 or less,
-    - print "You are an adult"
-    - print "You can work legally!"
-  - if not,
-    - print "You are a senior"
-    - print "You are too old to work legally"
+- Ask a user a number
+- If the number is greater than 0:
+  - If the number is equal to 0:
+    - print "This number is 0"
+  - If not
+    - print "This number is positive"
+- If not
+  - print "This number is negative"
