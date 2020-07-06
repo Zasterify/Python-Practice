@@ -14,16 +14,29 @@ all before you start.
 
 Remember to commit and push. Do NOT use generic names and numbers. Make sure the commit message makes sense about what you did. I should be able to read your commit message and understand in general what went on before you saved without ever opening the code.
 
-## Time Limit: _3 hours_
+## Time Limit: _1 hours_
 
 Please try to keep to this time, we have a lot to do now.
 
 ## Instructions
 
-Good. Here is another one.
+This practice is aimed at learning nested if/else statements.
 
-Make a program that asks the user for a number.
-If the number given to the user is divisible by 5 and 3, print out "FizzBiss"
-If the number is only divisible by 5, print out "Fizz"
-If the number is only divisible by 3, print out "Biss"
-If the number is not divisible by 5, or 3, print out the number.
+- Ask the user for a number.
+- Check if the number is even or odd.
+- If the number is even.
+  - Check if the number is between 0 and 50 inclusive.
+    - print "Low Even"
+  - If the number is between 51 and 99 inclusive.
+    - print "High Even"
+  - If not:
+    - print "Unknown Even"
+- If the number is odd
+  - Check if the number is between 0 and 50 inclusive.
+    - print "Low Odd"
+  - If the number is between 51 and 99 inclusive.
+    - print "High Odd"
+  - If not:
+    - print "Unknown Odd"
+- If not even or odd:
+  - Print "unknown number"
