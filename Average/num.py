@@ -4,3 +4,4 @@ if num >= 0:
         print('This number is 0')
     else:
         print('This number is positive')  # If the number is greater than 0 and return positive
+else:
