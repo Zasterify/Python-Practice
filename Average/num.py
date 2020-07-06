@@ -5,3 +5,4 @@ if num >= 0:
     else:
         print('This number is positive')  # If the number is greater than 0 and return positive
 else:
+    print('This number is negative')  # If the number is greater than 0 and return positive
