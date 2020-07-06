@@ -20,23 +20,16 @@ Please try to keep to this time, we have a lot to do now.
 
 ## Instructions
 
-This practice is aimed at learning nested if/else statements.
+First we will do some practice on nested if/else statements.
 
-- Ask the user for a number.
-- Check if the number is even or odd.
-- If the number is even.
-  - Check if the number is between 0 and 50 inclusive.
-    - print "Low Even"
-  - If the number is between 51 and 99 inclusive.
-    - print "High Even"
-  - If not:
-    - print "Unknown Even"
-- If the number is odd
-  - Check if the number is between 0 and 50 inclusive.
-    - print "Low Odd"
-  - If the number is between 51 and 99 inclusive.
-    - print "High Odd"
-  - If not:
-    - print "Unknown Odd"
-- If not even or odd:
-  - Print "unknown number"
+- Ask a user their age.
+- If the age is less than 18,
+  - print "You are a minor"
+  - print "You cannot work legally"
+- If not,
+  - If the age is 18 or more, and 60 or less,
+    - print "You are an adult"
+    - print "You can work legally!"
+  - if not,
+    - print "You are a senior"
+    - print "You are too old to work legally"
