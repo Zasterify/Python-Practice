@@ -4,3 +4,4 @@ if age < 18:
     print('You cannot work legally!')  # If your age is younger than 18 and return like this
 else:
     if age >= 18 and age <= 50: 
+        print('You are an adult')
