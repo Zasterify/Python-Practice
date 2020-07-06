@@ -7,7 +7,7 @@ if num % 2 == 0:
         print('High Even')
     else:
         print('Unknown Even')
-if num % 2 == 1:
+elif num % 2 == 1:
     if num >= 0 and num <= 50:
         print('Low Odd')
     elif num >= 51 and num <= 99:
