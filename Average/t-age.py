@@ -7,3 +7,4 @@ else:
         print('You are an adult')
         print('You can work legally')   # If your age is older than 18 and return like this
     else:
+        print('You are a senior')
