@@ -14,17 +14,32 @@ all before you start.
 
 Remember to commit and push. Do NOT use generic names and numbers. Make sure the commit message makes sense about what you did. I should be able to read your commit message and understand in general what went on before you saved without ever opening the code.
 
-## Time Limit: _3 hours_
+## Time Limit: _1 hours_
 
 Please try to keep to this time, we have a lot to do now.
 
 ## Instructions
 
-A school has following rules for grading system:
-a. Below 25 - F
-b. 25 to 45 - E
-c. 46 to 50 - D
-d. 51 to 60 - C
-e. 61 to 80 - B
-f. Above 80 - A
-Ask user to enter marks and print the corresponding grade to the user.
+First we will do some practice on nested if/else statements.
+
+Write a program that prints out a letter grade for a specific group of students after accepting the student major and number grade. The grading scale is as follows:
+
+Engineer: 91-100 = A, 81-90 = B, 71-80 = C, 61-70 = D, 0-60 = F
+Art: 81-100 = A, 61-80 = B, 41-60 = C, 21-40 = D, 0-20 = F
+General: 41-100 = A, 31-40 = B, 21-30 = C, 11-20 = D, 0-10 = F
+
+The program must ask for a students major. The student only has three options: "Engineer", "Art", or "General". They will be put in exactly as i have typed.
+The program must also ask for the students number grade.
+The program then prints out the corresponding letter grade.
+
+## Example
+
+- Enter you major: Engineer
+- Enter your grade: 99
+- "You have a grade of A in the class
+
+---
+
+- Enter your major: General
+- Enter your grade: 25
+- "You have a grade of C in the class
