@@ -15,3 +15,6 @@ print (present.weekday())  # Weekday of the week
 from datetime import datetime
 present = datetime.now()
 print (present.strftime('%-j'))  # Day of the year
+
+present = datetime.now()
+print (present.strftime('%d'))  # Day of the month
