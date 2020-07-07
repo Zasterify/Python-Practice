@@ -18,3 +18,6 @@ print (present.strftime('%-j'))  # Day of the year
 
 present = datetime.now()
 print (present.strftime('%d'))  # Day of the month
+
+present = datetime.now()
+print (present.strftime('%A'))  # Day of the week
