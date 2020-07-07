@@ -16,19 +16,23 @@ Remember to commit and push. Do NOT use generic names and numbers. Make sure the
 
 ## Time Limit: _1 hours_
 
-Please try to keep to this time, we have a lot to do now.
+This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-Simple print statements are fine for this one. Make a new branch and a new folder. It is getting too crowded in Average.
-You are also allowed to use the time import for this. It is needed.
+Make a branch, and a new folder. Call the folder name "Example Problems". Make a file inside the folder for this one and call it "sleepin.py"
 
-Write a Python script to display the various Date Time formats
-a) Current date and time
-b) Current year
-c) Month of year
-d) Week number of the year
-e) Weekday of the week
-f) Day of year
-g) Day of the month
-h) Day of week
+Define a function called "sleep_in" that takes in two parameters: weekday, and vacation.
+Weekday and Vacation determine if we can sleep in or not.
+Weekday is true if it is a weekday, and vacation is true if we are on vacation.
+
+For this problem, we can only sleep in if it is NOT a weekday, OR we are on vacation.
+Return true or false if we can sleep in or not.
+
+Examples are given below.
+
+## Examples
+
+sleep_in(False, False) → True
+sleep_in(True, False) → False
+sleep_in(False, True) → True
