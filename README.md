@@ -20,15 +20,23 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-Make a file inside the folder for this one and call it "permissions.py"
+Make a file inside the folder for this one and call it "school.py"
 
-Deborah wants to go and play soccer, however she needs the permission of BOTH dad and mom to go before she is allowed.
-Deborah can only go if Dad says True AND mom says True. If either one says false, deborah cannot go.
+For college kids to go back to school, many things need to happen. There needs to not be COVID, school must be open, and their tuition must be paid.
+If any of these three things fail to happen, students cannot go back to school and must follow other instructions.
 
-Write a function call it permission that accepts two arguments, dad and mom. It should return true if dad and mom are true,
-otherwise return false.
+If covid is true, that means there is covid.
+If school is true, that means school is open.
+If tuition is true, that means tuition is paid.
+
+Write a function called open_school that takes in three arguments, covid, school, and tuition.
+
+- If there is no Covid and school is open and tuition is paid, then print "SCHOOL IS OPEN FOR IN PERSON INSTRUCTION"
+- If there is no Covid and school is open and tuition is not paid, then print "SCHOOL IS OPEN, BUT YOU HAVE NOT PAID"
+- If there is Covid or school is closed, and tuition is paid, then print "SCHOOL IS CLOSED FOR IN PERSON INSTRUCTION. PLEASE STAY HOME FOR ONLINE LEARNING"
+- If any other situation occurs, print "SEEK FURTHER INSTRUCTIONS BY CONTACTING THE SCHOOL"
 
 ## Examples
 
-permission(True, False) → False
-permission(True, True) → True
+open_school(true, true, true) = "SCHOOL IS CLOSED FOR IN PERSON INSTRUCTION. PLEASE STAY HOME FOR ONLINE LEARNING"
+open_school(false, false, false) = "SEEK FURTHER INSTRUCTIONS BY CONTACTING THE SCHOOL"
