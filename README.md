@@ -20,19 +20,15 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-Make a branch, and a new folder. Call the folder name "Example Problems". Make a file inside the folder for this one and call it "sleepin.py"
+Make a file inside the folder for this one and call it "permissions.py"
 
-Define a function called "sleep_in" that takes in two parameters: weekday, and vacation.
-Weekday and Vacation determine if we can sleep in or not.
-Weekday is true if it is a weekday, and vacation is true if we are on vacation.
+Deborah wants to go and play soccer, however she needs the permission of BOTH dad and mom to go before she is allowed.
+Deborah can only go if Dad says True AND mom says True. If either one says false, deborah cannot go.
 
-For this problem, we can only sleep in if it is NOT a weekday, OR we are on vacation.
-Return true or false if we can sleep in or not.
-
-Examples are given below.
+Write a function call it permission that accepts two arguments, dad and mom. It should return true if dad and mom are true,
+otherwise return false.
 
 ## Examples
 
-sleep_in(False, False) → True
-sleep_in(True, False) → False
-sleep_in(False, True) → True
+permission(True, False) → False
+permission(True, True) → True
