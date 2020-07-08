@@ -1,0 +1,7 @@
+def sleep_in(weekday, vacation):  # To define the function 'sleep_in' consits with 'weekday' and 'vacation'
+    if vacation and not weekday:  # if it is on vacation
+         return True  # It means you can either sleep in or not
+    else:            # If it is not on vacation
+        return False  # It means you can only sleep in 
+
+print(sleep_in(True, False)) # To print for calling the function as the above 
