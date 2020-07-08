@@ -6,3 +6,4 @@ def sleep_in(weekday, vacation):  # To define the function 'sleep_in' consits wi
 
     if vacation:  # If it is on vacation
         return True  # You can sleep in
+    else:            # if stuck
