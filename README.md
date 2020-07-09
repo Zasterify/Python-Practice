@@ -20,23 +20,10 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-Make a file inside the folder for this one and call it "school.py"
-
-For college kids to go back to school, many things need to happen. There needs to not be COVID, school must be open, and their tuition must be paid.
-If any of these three things fail to happen, students cannot go back to school and must follow other instructions.
-
-If covid is true, that means there is covid.
-If school is true, that means school is open.
-If tuition is true, that means tuition is paid.
-
-Write a function called open_school that takes in three arguments, covid, school, and tuition.
-
-- If there is no Covid and school is open and tuition is paid, then print "SCHOOL IS OPEN FOR IN PERSON INSTRUCTION"
-- If there is no Covid and school is open and tuition is not paid, then print "SCHOOL IS OPEN, BUT YOU HAVE NOT PAID"
-- If there is Covid or school is closed, and tuition is paid, then print "SCHOOL IS CLOSED FOR IN PERSON INSTRUCTION. PLEASE STAY HOME FOR ONLINE LEARNING"
-- If any other situation occurs, print "SEEK FURTHER INSTRUCTIONS BY CONTACTING THE SCHOOL"
+We have two monkeys, a and b, create a function monkey_trouble that has parameters a_smile and b_smile indicating if each is smiling. We are in trouble if they are both smiling or if neither of them is smiling. Return True if we are in trouble otherwise false.
 
 ## Examples
 
-open_school(true, true, true) = "SCHOOL IS CLOSED FOR IN PERSON INSTRUCTION. PLEASE STAY HOME FOR ONLINE LEARNING"
-open_school(false, false, false) = "SEEK FURTHER INSTRUCTIONS BY CONTACTING THE SCHOOL"
+monkey_trouble(True, True) → True
+monkey_trouble(False, False) → True
+monkey_trouble(True, False) → False
