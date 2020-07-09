@@ -20,12 +20,12 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-Call this function diff21.
+Call this function parrot_trouble.
 
-Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21.
+We have a loud talking parrot. The "hour" parameter is the current hour time having a value possible between 0 to 23 inclusive. We are in trouble if the parrot is talking and the hour is before 7 or after 20. Return True if we are in trouble.
 
 ## Example
 
-diff21(19) → 2
-diff21(10) → 11
-diff21(21) → 0
+parrot_trouble(True, 6) → True
+parrot_trouble(True, 7) → False
+parrot_trouble(False, 6) → False
