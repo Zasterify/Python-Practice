@@ -17,4 +17,6 @@ def open_school(covid, school, tuition):
     if not covid and not school and not tuition:  # if covid is false, school is false and tuition is false
         return ('SEEK FURTHER INSTRUCTION BY CONTACTING THE SCHOOL') # To print this statement
 
+print(open_school(False, False, False))  # To print this to call the function 'open_school'
+
 
