@@ -6,5 +6,6 @@ def open_school(covid, school, tuition):
         return ('SCHOOL IS OPEN FOR IN PERSON INSTRUCTION')  # To print this statement
     
     if not covid and school and not tuition:  # if covid is false, school is true and tuition is false
+        return ('SCHOOL IS OPEN, BUT YOU HAVE NOT PAID')  # To print this statement
 
 
