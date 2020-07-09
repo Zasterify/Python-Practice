@@ -7,3 +7,5 @@ def parrot_trouble(parrot_talking, hour):
         return True  # To prove how parrot talking spent is true
     else:
         return False  # To get evidence how it is false
+
+print(parrot_trouble(True, 6))  # To print this to call the function
