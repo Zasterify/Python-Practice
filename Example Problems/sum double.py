@@ -6,3 +6,4 @@ def sum_double(value1, value2):
     if value1 == value2:  # if the values are the same or not
         return sum * 2  # To return the answer if they are same
     else:
+        return sum  # To return the answer if they are diverse
