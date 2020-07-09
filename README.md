@@ -20,10 +20,12 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-We have two monkeys, a and b, create a function monkey_trouble that has parameters a_smile and b_smile indicating if each is smiling. We are in trouble if they are both smiling or if neither of them is smiling. Return True if we are in trouble otherwise false.
+Call this function sum_double.
+
+Given two int values, return their sum. Unless the two values are the same, then return double their sum.
 
 ## Examples
 
-monkey_trouble(True, True) → True
-monkey_trouble(False, False) → True
-monkey_trouble(True, False) → False
+sum_double(1, 2) → 3
+sum_double(3, 2) → 5
+sum_double(2, 2) → 8
