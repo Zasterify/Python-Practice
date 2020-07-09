@@ -4,3 +4,4 @@ def sum_double(value1, value2):
     '''
     sum = value1 + value2  # To calculate the sum of value1 and valiue2 
     if value1 == value2:  # if the values are the same or not
+        return sum * 2  # To return the answer if they are same
