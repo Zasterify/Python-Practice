@@ -6,3 +6,5 @@ def monkey_trouble(a_smile, b_smile):
          return True  # if a and b are both smiling
     else:
         return False  # if neither a or b is smiling
+
+print(monkey_trouble(False, False))  # To print this to call the function 'monkey_smile'
