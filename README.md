@@ -20,12 +20,12 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-Call this function sum_double.
+Call this function diff21.
 
-Given two int values, return their sum. Unless the two values are the same, then return double their sum.
+Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21.
 
-## Examples
+## Example
 
-sum_double(1, 2) → 3
-sum_double(3, 2) → 5
-sum_double(2, 2) → 8
+diff21(19) → 2
+diff21(10) → 11
+diff21(21) → 0
