@@ -4,3 +4,4 @@ def diff21(n):
     '''
     if n >= 21:  # if n is greater than 21 or not
         return n - 21  # To return if n is greater than 21
+    else:
