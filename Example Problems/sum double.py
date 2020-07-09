@@ -7,3 +7,5 @@ def sum_double(value1, value2):
         return sum * 2  # To return the answer if they are same
     else:
         return sum  # To return the answer if they are diverse
+
+print(sum_double(1, 2))  # To print this to call the function 'sum_double'
