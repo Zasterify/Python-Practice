@@ -12,5 +12,6 @@ def open_school(covid, school, tuition):
         return ('SCHOOL IS CLOSED FOR IN PERSON INSTRUCTION. PLEASE STAY HOME FOR ONLINE LEARNING')  # To print this statement
 
     if covid and school and tuition:  # if covid is true, school is true and tuition is false
+        return ('SCHOOL IS CLOSED FOR IN PERSON INSTRUCTION. PLEASE STAY HOME FOR ONLINE LEARNING')  # To print this statement
 
 
