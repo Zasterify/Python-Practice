@@ -4,3 +4,4 @@ def monkey_trouble(a_smile, b_smile):
     """
     if a_smile and b_smile or not a_smile and not b_smile:  # if both are smiling or not
          return True  # if a and b are both smiling
+    else:
