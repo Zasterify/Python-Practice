@@ -7,3 +7,5 @@ def pos_neg(value1, value2, both):
         return True  # if both are negative
     else:
         return False  # if both are not negative  
+
+print(pos_neg(-4, -5, True))  # To print to call the function 'pos_neg'
