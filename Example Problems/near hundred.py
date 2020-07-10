@@ -6,3 +6,5 @@ def near_hundred(n):
          return True  # if the answer is almost 10
     else:
          return False  # if the answer is over 10
+
+print(near_hundred(93))  # To print this to call the function
