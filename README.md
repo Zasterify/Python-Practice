@@ -20,12 +20,12 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-Call this function near_hundred.
+Call the function pos_neg.
 
-Given an int n, return True if it is within 10 of 100 or 200. Note: abs(num) computes the absolute value of a number.
+Given 2 int values, return True if one is negative and one is positive. Except if the parameter "negative" is True, then return True only if both are negative.
 
 ## Example
 
-near_hundred(93) → True
-near_hundred(90) → True
-near_hundred(89) → False
+pos_neg(1, -1, False) → True
+pos_neg(-1, 1, False) → True
+pos_neg(-4, -5, True) → True
