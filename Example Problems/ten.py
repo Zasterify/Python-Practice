@@ -8,6 +8,8 @@ def makes10(a, b):
     else:
         return False  # To get the answer whether a or b or sum is wrong
 
+print(makes10(9, 9))  # To print this to call the function
+
 
 
 
