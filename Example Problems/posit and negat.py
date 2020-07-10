@@ -1,11 +1,14 @@
-def pos_neg(value1, value2, both):  
+def pos_neg(value1, value2, negative):
     '''
     To define the function 'pos_neg' with 2 arguments in one parameter
     ''' 
-    both = value1 and value2  # if two values are the same
-    if value1 <= 0 and value2 >= 0 or value1 >= 0 and value2 <= 0 or both <= 0:  # to observe as if value1 is either positive or negative and value2 is either negative or positive
-        return True  # if both are negative
+    if value1 >= 0 and value2 <= 0 and negative == False:  # if value1 is positive, value 2 is negative and negative is false
+        return True 
+    elif value1 <= 0 and value2 >= 0 and negative == False:  # if value1 is negative, value2 is postive and negative is false
+        return True
+    elif value1 <= 0 and value2 <= 0 and negative == True:  # if both are negative and negative is true 
+        return True
     else:
-        return False  # if both are not negative  
+        return False
 
-print(pos_neg(-4, -5, True))  # To print to call the function 'pos_neg'
+print(pos_neg(-1, 1, False))  # To print to call the function 'pos_neg'
