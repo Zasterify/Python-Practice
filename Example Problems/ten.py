@@ -6,6 +6,7 @@ def makes10(a, b):
     if a == 10 or b == 10 or sum == 10:  # To notice which one of them that can give 10
         return True  # To get the answer whether a or b or sum is right
     else:
+        return False  # To get the answer whether a or b or sum is wrong
 
 
 
