@@ -20,12 +20,12 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-Call this function parrot_trouble.
+Call this function makes10.
 
-We have a loud talking parrot. The "hour" parameter is the current hour time having a value possible between 0 to 23 inclusive. We are in trouble if the parrot is talking and the hour is before 7 or after 20. Return True if we are in trouble.
+Given 2 ints, a and b, return True if one of them is 10 or if their sum is 10.
 
 ## Example
 
-parrot_trouble(True, 6) → True
-parrot_trouble(True, 7) → False
-parrot_trouble(False, 6) → False
+makes10(9, 10) → True
+makes10(9, 9) → False
+makes10(1, 9) → True
