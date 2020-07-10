@@ -20,12 +20,12 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-Call this function makes10.
+Call this function near_hundred.
 
-Given 2 ints, a and b, return True if one of them is 10 or if their sum is 10.
+Given an int n, return True if it is within 10 of 100 or 200. Note: abs(num) computes the absolute value of a number.
 
 ## Example
 
-makes10(9, 10) → True
-makes10(9, 9) → False
-makes10(1, 9) → True
+near_hundred(93) → True
+near_hundred(90) → True
+near_hundred(89) → False
