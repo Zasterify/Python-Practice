@@ -8,3 +8,4 @@ def rent(price):
 
 def uber(price): 
     '''to define the function called 'uber' with 1 parameter'''
+    return price - price * 50/100   # to calculate for discount
