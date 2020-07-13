@@ -6,5 +6,9 @@ def word2():
     '''to define the function called 'word2' '''
     print ('World!')  # to print into the fuction
 
-word1()  # to call the function
-word2()  # to call the function
+def word3():
+    '''to define the function called 'word3' '''
+    word1()
+    word2()
+
+word3()
