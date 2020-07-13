@@ -5,3 +5,6 @@ def func1(x):
 def func2(y):  
     '''to define the function called func2 with a parameter'''
     return y * 2  # to calculate the value of y
+
+def func3(x, y):
+    '''to define the function called func3 with two  parameters'''
