@@ -12,3 +12,4 @@ def uber(price):
 
 def total(shop_price, rent_price, uber_price):
     '''to define the function called 'total' with 3 parameters'''
+    return shopping(shop_price) + rent(rent_price) + uber(uber_price)  # to calculate the amount of prices 
