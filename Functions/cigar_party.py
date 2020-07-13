@@ -4,3 +4,5 @@ def cigar_party(num_cigar,weekend):
         return True
     else:
         return False
+
+print(cigar_party(30, False))  # to print for calling the function 
