@@ -10,3 +10,5 @@ def func3(x, y):
     '''to define the function called func3 with two  parameters'''
     print (func1 (x))  # to print the value of x
     print (func2 (y))  # to print the value of y
+
+func3(4, 5)  # to call the function 
