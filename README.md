@@ -20,6 +20,9 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-In a file called funcHello.py, make three functions.
+In a file called test.py
 
-- One of the functions prints the word "Hello", the other prints the word "World!", the last should just call both functions.
+- Create 3 functions.
+- One takes in a parameter and returns half the parameter.
+- Another takes in one parameter and returns double that number.
+- The last takes in two parameters and prints out the function call to the previous two with the parameters passed in appropriately.
