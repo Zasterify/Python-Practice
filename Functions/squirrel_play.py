@@ -7,3 +7,4 @@ def squirrel_play(temperature, summer):
     else:
         return False
 
+print(squirrel_play(95, True))  # to print for calling the function
