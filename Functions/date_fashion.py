@@ -6,3 +6,5 @@ def date_fashion(you, date):
         return 0  # to return no
     else:
         return 1  # to return maybe
+
+print(date_fashion(5,10))  # to print for calling the function
