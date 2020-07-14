@@ -5,4 +5,5 @@ def squirrel_play(temperature, summer):
     elif summer and temperature > 70:  # if summer and temperature is greater than 70
         return True
     else:
+        return False
 
