@@ -5,3 +5,4 @@ def date_fashion(you, date):
     elif you <= 2 or date <= 2:  # if it is less than 2
         return 0  # to return no
     else:
+        return 1  # to return maybe
