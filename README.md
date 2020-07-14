@@ -20,10 +20,12 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-In a file called cigar_party.py create a function cigar_party that solves the following problem.
+In a file called date_fashion.py create a function date_fashion that solves the following problem.
 
-When squirrels get together for a party, they like to have cigars. A squirrel party is successful when the number of cigars is between 40 and 60, inclusive. Unless it is the weekend, in which case there is no upper bound on the number of cigars. Return True if the party with the given values is successful, or False otherwise.
+You and your date are trying to get a table at a restaurant. The parameter "you" is the stylishness of your clothes, in the range 0..10, and "date" is the stylishness of your date's clothes. The result getting the table is saved as an int value with 0=no, 1=maybe, 2=yes. If either of you is very stylish (8 or more), then the result is 2 (yes). With the exception that if either of you has style of 2 or less, then the result is 0 (no). Otherwise the result is 1 (maybe). Print the results.
 
-cigar_party(30, False) → False
-cigar_party(50, False) → True
-cigar_party(70, True) → True
+## Examples
+
+date_fashion(5, 10) → 2
+date_fashion(5, 2) → 0
+date_fashion(5, 5) → 1
