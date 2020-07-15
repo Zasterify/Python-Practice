@@ -6,4 +6,6 @@ def caught_speeding(speed, birthday):
         return 1
     else:
         return 0
+
+print(caught_speeding(60, False))  # to print for calling the function
    
