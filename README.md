@@ -20,12 +20,12 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-In a file squirrel_play.py create a function squirrel_play that solves the following problem.
+In a file caught_speeding.py create a function caught_speeding that takes in two parameters speed, and birthday, and solves the following problem.
 
-The squirrels in Palo Alto spend most of the day playing. In particular, they play if the temperature is between 60 and 90 (inclusive). Unless it is not summer, then the upper limit is 100 instead of 90. Given an int temperature and a boolean is_summer, return True if the squirrels play and False otherwise.
+You are driving a little too fast, and a police officer stops you. Write code to compute the result, saved as an int value: 0=no ticket, 1=small ticket, 2=big ticket. If speed is 60 or less, the result is 0. If speed is between 61 and 80 inclusive, the result is 1. If speed is 81 or more, the result is 2. Unless it is your birthday -- on that day, your speed can be 5 points higher in all cases.
 
-## Examples
+## Example
 
-squirrel_play(70, False) → True
-squirrel_play(95, False) → False
-squirrel_play(95, True) → True
+caught_speeding(60, False) → 0
+caught_speeding(65, False) → 1
+caught_speeding(65, True) → 0
