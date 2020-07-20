@@ -3,5 +3,6 @@ def string_times(string, n):
     if string and n == 2:
         return string * n  # if string is multiplied by 2
     elif string and n == 3:
-        return string * n  # if string is multiplied by 3 
+        return string * n  # if string is multiplied by 3
+    elif string and n == 1: 
     
