@@ -1,0 +1,11 @@
+def string_times(string, n):  
+    '''to define the function called string_times''' 
+    if string and n == 2:
+        return string * n  # if string is multiplied by 2
+    elif string and n == 3:
+        return string * n  # if string is multiplied by 3
+    elif string and n == 1:
+        return string * n  # if string is multiplied by 1 
+
+
+print(string_times('Hi', 1))  # to print for calling the function    
