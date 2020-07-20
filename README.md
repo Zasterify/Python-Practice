@@ -20,10 +20,10 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-Given a string and a non-negative int n, return a larger string that is n copies of the original string.
+Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged.
 
-## Example
+## Examples
 
-string_times('Hi', 2) → 'HiHi'
-string_times('Hi', 3) → 'HiHiHi'
-string_times('Hi', 1) → 'Hi'
+not_string('candy') → 'not candy'
+not_string('x') → 'not x'
+not_string('not bad') → 'not not bad'
