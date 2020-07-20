@@ -1,1 +1,1 @@
-fruits = ['Watermelon', 'Pawpaw', 'Pineapple', 'Pear', 'Grape']  # to mention 5 random fruits
+fruits = ['Watermelon', 'Pawpaw', 'Pineapple', 'Pear', 'Grape']  # to mention 5 random fruits 
