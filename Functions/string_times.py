@@ -6,4 +6,6 @@ def string_times(string, n):
         return string * n  # if string is multiplied by 3
     elif string and n == 1:
         return string * n  # if string is multiplied by 1 
-    
+
+
+print(string_times('Hi', 1))  # to print for calling the function    
