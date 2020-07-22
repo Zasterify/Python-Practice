@@ -26,4 +26,4 @@ Given a string, return a new string where "not " has been added to the front. Ho
 
 not_string('candy') → 'not candy'
 not_string('x') → 'not x'
-not_string('not bad') → 'not not bad'
+not_string('not bad') → 'not bad'
