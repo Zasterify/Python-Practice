@@ -20,12 +20,11 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-In a file caught_speeding.py create a function caught_speeding that takes in two parameters speed, and birthday, and solves the following problem.
+Given a string, return a new string where "HELLO" has been added to the middle of the word. If the word is odd in length add it after the middle word. If it is even, add it directly in the center.
 
-You are driving a little too fast, and a police officer stops you. Write code to compute the result, saved as an int value: 0=no ticket, 1=small ticket, 2=big ticket. If speed is 60 or less, the result is 0. If speed is between 61 and 80 inclusive, the result is 1. If speed is 81 or more, the result is 2. Unless it is your birthday -- on that day, your speed can be 5 points higher in all cases.
+## Examples
 
-## Example
-
-caught_speeding(60, False) → 0
-caught_speeding(65, False) → 1
-caught_speeding(65, True) → 0
+not_string('candy') → 'canHELLOdy'
+not_string('x') → 'notHELLO x'
+not_string('not bad') → 'not HELLObad'
+not_string("name") -> "naHELLOme"
