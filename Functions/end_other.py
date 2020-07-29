@@ -6,3 +6,5 @@ def end_other(str1, str2):
         return True
     else:
         return False
+
+print(end_other('Hiabc','abc' ))  # to print for calling the function
