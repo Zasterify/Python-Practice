@@ -20,10 +20,11 @@ This time limit is strict. You HAVE TO finish this under 1 hour.
 
 ## Instructions
 
-Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged.
+Given a string, return a new string where "HELLO" has been added to the middle of the word. If the word is odd in length add it after the middle word. If it is even, add it directly in the center.
 
 ## Examples
 
-not_string('candy') → 'not candy'
-not_string('x') → 'not x'
-not_string('not bad') → 'not bad'
+not_string('candy') → 'canHELLOdy'
+not_string('x') → 'notHELLO x'
+not_string('not bad') → 'not HELLObad'
+not_string("name") -> "naHELLOme"
