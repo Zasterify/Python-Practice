@@ -5,3 +5,4 @@ def end_other(str1, str2):
     elif str2[2:] == str1: # if str2 at index 2 is equal to str2
         return True
     else:
+        return False
